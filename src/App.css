@@ -23,7 +23,6 @@
 .card
 {
   border: 2px solid black;
-  border-shadow: 10px;
   border-radius: 30px;
   width: 300px;
   height: 500px;
@@ -31,4 +30,35 @@
   flex-direction: column;
   margin: 20px;
   transition: height 0.1s;
+}
+
+.cardDetails
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cardTitle
+{
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.metaData
+{
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.moreDetails
+{
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
 }
