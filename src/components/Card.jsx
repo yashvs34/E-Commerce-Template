@@ -3,7 +3,6 @@ function Card ({id, it})
 {
     return (
         <>
-        {console.log(it)}
             <div>
                 <img src={it.thumbnail} alt={it.title} />
                 <div style={{display:"flex"}}>
@@ -12,6 +11,9 @@ function Card ({id, it})
                     </div>
                     <div>
                         {it.price}
+                    </div>
+                    <div>
+                        {it.rating}
                     </div>
                 </div>
             </div>

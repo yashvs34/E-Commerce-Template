@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      {groupedData.map((item, index) => {
+      {groupedData.length == 0 ? <>Loading...</> : groupedData.map((item, index) => {
         return <Category id = {index} name = {item.category} items = {item.items} />
       })}
     </>
