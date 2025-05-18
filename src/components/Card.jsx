@@ -3,16 +3,16 @@ function Card ({id, it})
 {
     return (
         <>
-            <div>
+            <div className="card">
                 <img src={it.thumbnail} alt={it.title} />
-                <div style={{display:"flex"}}>
-                    <div>
+                <div className="cardDetails">
+                    <div className="cardTitle">
                         {it.title}
                     </div>
-                    <div>
+                    <div className="itemPrice">
                         {it.price}
                     </div>
-                    <div>
+                    <div className="itemRating">
                         {it.rating}
                     </div>
                 </div>
